@@ -7,6 +7,11 @@ npm install --save-dev webpack webpack-cli
 
 First we have to declare which files depend on what through imports and exports
 
+Default behavior of webpack is it will find the index.js file, if no webpack config is found
+
+
+https://alligator.io/nodejs/how-to-use__dirname/
+
 ## Errors
 
 `ERROR in Entry module not found: Error: Can't resolve './src' in 'D:\WebstormProjects\webpack-helloworld'
